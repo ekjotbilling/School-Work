@@ -1,0 +1,46 @@
+
+
+table{	
+   border-collapse: collapse;
+   /*width: 80%;*/
+   text-align: center;
+  
+}
+
+td{
+	height: 40px;
+	width: 40px;
+
+}
+
+.headings{
+	font-size:50px;
+}
+
+.grey{
+	background-color:black;
+}
+
+.white{
+	background-color:white;
+}
+
+
+button {
+
+	text-align: center;
+	justify-content: center;
+    background-color: red;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.button {
+	display:block;
+	text-align:center;
+}
