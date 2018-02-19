@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="app.js" async></script>
+</head>
+<body>
+
+		<!-- TODO: 
+		0.add instructions
+		1.add min age req (form tag bday add min max) 
+		2.user add custom fields
+	-->
+	<h1 align="center"> Basic JSON Server!!</h1>
+
+	<form  action="/" method="POST" enctype="multipart/form-data">
+		<!-- first name,last name,bday,email(s),add more button,submit button -->
+		<br><br>
+
+		First Name: <input align="center" type="text" name="fname"  required>
+
+		<br><br>
+
+		Last Name: <input align="center" type="text" name="lname" required>
+		<br><br>
+
+		BirthDay: <input type="date" name="bday" required>
+		<br><br>
+
+		Postal Code: <input type="text" name="pcode" placeholder="A0A 0A0" 
+		pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" required >
+
+		<br><br>
+	
+		<div id="emailTag"> 
+
+		Email(s): <input type="email" name="email" required> 
+		<input type="button" name="addEmailButton" value="+" onclick="addEmail();" >
+
+		</div>
+		<br><br>
+
+		<input type="button" name="addForm" value="Add More" onclick="addForm()">
+		<input type="submit">
+
+		<br><br>
+
+	</form>
+</body>
+</html>
