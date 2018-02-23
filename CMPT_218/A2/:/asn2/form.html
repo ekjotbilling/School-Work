@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>Assignment 2</title>
@@ -7,6 +7,15 @@
 </head>
 <body>
 
+
+
+
+
+
+
+
+
+
 		<!-- TODO: 
 		0.add instructions
 		1.add min age req (form tag bday add min max) 
@@ -14,7 +23,7 @@
 	-->
 	<h1 align="center"> Basic JSON Server!!</h1>
 
-	<form  action="/" method="POST" enctype="multipart/form-data">
+	<form  action="/" method="POST"  >
 		<!-- first name,last name,bday,email(s),add more button,submit button -->
 		<br><br>
 
@@ -47,5 +56,42 @@
 		<br><br>
 
 	</form>
+
+	<!-- <script>
+		
+	var emailCounter=1;
+	const emailLimit=3;
+	function addEmail(){
+		console.log("here");
+		if(emailCounter==emailLimit){
+			alert("Cannot add more emails, The limit is 3")
+		}
+		else{
+
+			let entry = document.getElementById('emailTag');
+			let div=document.createElement('div');
+				
+			let br=document.createElement('br')
+			div.appendChild(br);
+
+			let inp= document.createElement("INPUT");
+			inp.setAttribute("type","email");
+			let temp="email"+emailCounter;
+			inp.setAttribute("name",temp)
+			inp.required=true;
+			
+			// <input type="button" name="addEmailButton" value="+" onclick="addEmail();" >
+			div.appendChild(inp)
+			entry.appendChild(div);
+
+			emailCounter++;
+		}
+	}	
+
+
+	function addForm(){
+		
+	}
+	</script> -->
 </body>
 </html>

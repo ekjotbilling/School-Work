@@ -1,8 +1,4 @@
 
-
-
-
-
 var emailCounter=1;
 const emailLimit=3;
 
